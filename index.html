@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container bg-white shadow-lg p-5 mt-5 ">
+        <h1 class="mb-4 font text-center"><i class="bi bi-book"></i> Bookshelves</h1>
+
+        <form id="book-form">
+            <div class="mb-3">
+                <label for="title" class="form-label h4">Title</label>
+                <input type="text" class="form-control" id="title">
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label h4">Author</label>
+                <input type="text" class="form-control" id="author">
+            </div>
+            <div class="mb-3">
+                <label for="isbn" class="form-label h4">ISBN#</label>
+                <input type="text" class="form-control" id="isbn">
+            </div>
+            <div class="d-grid gap-2 mt-4">
+                <button class="btn btn-dark fs-5 fw-bold" type="submit">Submit</button>
+              </div> 
+        </form>
+
+        <table class="table mt-5 table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <!-- <th>x</th> -->
+                </tr>
+               
+            </thead>
+            <tbody id="book-list">
+                <!-- <tr>
+                    <td>dg</td>
+                    <td>dg</td>
+                    <td>dg</td>
+                    <td><a href="#" class="delete">x</a></td>
+                </tr> -->
+            </tbody>
+
+        </table>  
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="main.js"></script>
+</body>
+</html>

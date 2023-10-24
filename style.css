@@ -1,0 +1,37 @@
+body{
+  background-image: url(shelf.jfif);
+}
+
+
+.font{
+    font-size: 50px;
+    
+}
+
+.success , .error {
+    padding:  10px;
+    color:  white;
+    margin-bottom: 10px;
+}
+
+.success{
+  background-color: green;
+}
+
+.error{
+    background-color: red;
+  }
+
+  .delete{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .delete:hover{
+    color:red;
+    font-weight: bold;
+  }
+.container{
+    border-radius: 40px;
+}
